@@ -1,26 +1,27 @@
-import { Footer, Navbar, Welcome, Transaction, Services } from './components'
+import { Footer, Welcome, Navbar, Transaction, Services } from './components'
 
 const App = () => {
   return (
-    <div className=" ">
+    <div className="min-h-screen">
 
-      <div className=" ">
+      <div className="gradient-bg-welcome">
       
-       <Navbar />
-       <Welcome />
+        <Navbar />
+       <Welcome /> 
 
-        <div>
-        
-        jnl
-        <Footer />
-        <Transaction />
-        <Services />
         </div>
+        
+      
+       <Footer />  
+      <Transaction />  
+      <Services /> 
+         
+        
 
-      </div>
-      hello
+    
     </div>
-  )
+   
+  );
 }
 
-export default App
+export default App;
