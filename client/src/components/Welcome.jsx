@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { BsInfoCircle } from "react-icons/bs";
 
-import { TransactionContext } from "../context/TransactionContext";
+
 import { shortenAddress } from "../utils/shortenAddress";
 import { Loader } from ".";
 
